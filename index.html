@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="with=device-width, initial-scale=1.0, minimulm-scale=1">
+	<title> L.T. "Ion Creangă" </title>
+	<link rel="stylesheet" href="CSS.css">
+	<script src="https://kit.fontawesome.com/2de94a85e5.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.2/dist/iconify-icon.min.js"></script>
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+
+<body>
+
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-rectangle-xmark" aria-hidden="true" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">ACASĂ</a></li>
+				<li><a href="about.html">DESPRE NOI</a></li>
+				<li><a href="course.html">CURSURI</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACTE</a></li>
+			</ul>
+		</div>
+
+		<i class="fa-solid fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+	</nav>
+	<div class="text-box">
+		<h1>Bine ați venit în lumea cunoștințelor!</h1>
+		<!---<p>Să nu uităm: o carte, un stilou, un copil și un profesor pot schimba lumea. – Malala Yousafzai</p>--->	
+		<a href="about.html" class="hero-btn">Află mai mult</a>
+	</div>
+	</section>
+
+<!---Achivements--->
+
+	<section class="course">
+		<h1>Realizări</h1>
+		<div class="row">
+			<div class="course-col">
+				<iconify-icon icon="fa6-solid:graduation-cap"></iconify-icon>
+				<a href="course.html"><h3>Cursuri</h3></a>
+				<p>3</p>
+			</div>
+			<div class="course-col">
+				<iconify-icon icon="material-symbols:group"></iconify-icon>
+				<h3>Elevi</h3>
+				<p>700+</p>
+			</div>
+			<div class="course-col">
+				<iconify-icon icon="eos-icons:project"></iconify-icon>
+				<a href="#P"><h3>Proiecte</h3></a>
+				<p>10+</p>
+			</div>
+			<div class="course-col">
+				<iconify-icon icon="gridicons:trophy"></iconify-icon>
+				<a href="#"><h3>Premii</h3></a>
+				<p>100+</p>
+			</div>
+		</div>
+	</section>
+	
+<hr></hr>
+
+
+<div class="wrap">
+	<h2></h2>
+	<p><p>
+</div>
+
+
+<!----docs---->
+	<section class="modimg">
+		<h1>Transparență</h1>
+		<p>Decizii/Buget</p>
+		<br>
+	<!----best fit 4 img, if you need more we can display them in another row below this one--->	
+		<img id="myImg1" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">
+		<!----<img id="myImg2" src="images/plan.png" alt="" style="width:90%; max-width:300px">--->
+		<!----<img id="myImg3" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">--->
+		<!----<img id="myImg4" src="images/buget2.jpg" alt="" style="width:90%; max-width:300px">--->
+		<!----<img id="myImg5" src="images/buget.jpg" alt="" style="width:90%; max-width:300px">--->
+		
+		
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+
+		
+		<!---<a href="CV.pdf">
+			<iframe id="myPDF" src="CV.pdf" frameborder="0">
+			</iframe>
+		</a>--->
+		<a href="plan_2023.pdf">
+			<img id="myPDF" src="images/plan.png">
+		</a>
+		<a href="plan_achizitii.pdf">
+			<img id="myPDF" src="images/plan2.png">
+		</a>
+		<a href="plan_modificat.pdf">
+			<img id="myPDF" src="images/plan_modificat.png">
+		</a>
+		
+	</section>
+	
+	<section class="modimg">
+		<a href="plan_mod_decembrie.pdf">
+			<img id="myPDF" src="images/plan_mod_decembrie.png">
+		</a>
+		<a href="plan_achizitii.pdf">
+			<img id="myPDF" src="images/plan_achizitii.png">
+		</a>		
+	</section>
+	
+<hr></hr>
+
+<div class="wrap2">
+	<h2></h2>
+	<p><p>
+</div>
+
+<!----PROJECTS---->
+	<section class="facilities">
+
+		<div class="programs-section">
+			<div class="programs-content">
+				<div class="program-title">
+					<h2 id="P">Proiecte Impimentate</h2>
+				</div>
+				<div class="crds">
+				
+					<div class="crd">
+						<div class="program-image">
+							<img src="projects2/bc11.jpg">
+						</div>
+						<div class="article">
+							<h4>Renovarea Bucătăriei</h4>
+							<p>Dezvoltarea capacităţilor de pregătire a bucatelor şi a statutului nutriţional conform standardelor, precum şi îmbunătățirea conditiilor sanitare de alimentație a 700 elevi din Liceului Teoretic ,,Ion Creangă” din s. Coşniţa.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project11.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/earth.jpg">
+						</div>
+						<div class="article">
+							<h4>Teach Locally, Reach Globally!</h4>
+							<p>Proiect susținut de Ambasada SUA, pentru dotarea, dezvoltarea și îmbunătățirea abilităților profesionale a 22 de profesori de limba engleză și a 50 de studenți (cu vârste între 14 și 18 ani).</p>
+						</div>
+						<div class="progra-view">
+							<a href="project1.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/covid1.jpg">
+						</div>
+						<div class="article">
+							<h4>COVID-19</h4>
+							<p>Proiect finalizat în termen de 7 luni, prin intermediul CSID, Coșnița, r.Dubăsari. Fondurile au fost folosite pentru achiziționarea de echipamente și rechizite de protecție pentru întreaga comunitate școlară din Liceul Teoretic „Ion Creangă”, Coșnița, r.Dubăsari.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project2.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/biblioteca.jpg">
+						</div>
+						<div class="article">
+							<h4>Renovarea Bibliotecii</h4>
+							<p>Renovarea Bibliotecii școlare! (2018-2019) –proiect implementat în parteneriat cu poporul American, Centrul pentru Susținerea Inițiativelor pentru dezvoltare și voluntar al Corpului Păcii în Moldova, dna Grete Phillips. </p>
+						</div>
+						<div class="progra-view">
+							<a href="project8.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/ggg.png">
+						</div>
+						<div class="article">
+							<h4>Girls Go Green!</h4>
+							<p>Proiectul "Girls Go Green" a avut drept scop educarea și împuternicirea fetelor în sustenabilitatea ecosistemului local, punându-se accent pe implicarea fetelor cu cerințe educaționale speciale, garantând participarea lor în activități civice.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project3.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/clasa_it_.jpg">
+						</div>
+						<div class="article">
+							<h4>clasa viITorului</h4>
+							<p>Clasa Viitorului este un proiect de transformare digitală a educației, implementat în instituţiile educaţionale din Moldova.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project9.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/sala.jpg">
+						</div>
+						<div class="article">
+							<h4>Renovarea Sălii Sportive</h4>
+							<p>Proiectul dat a fost elaborat de Primăria c. Coșnița în conformitate cu Decizia Consiliului local nr.1/4 din 25 ianuarie 2021 „cu privire la aprobarea propunerii de proiect spre finanţare din sursele Programului activităţilor de Reintegrare a Țării”.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project4.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="projects/hope4.jpg">
+						</div>
+						<div class="article">
+							<h4>Hope4<br>IT Summer Camp</h4>
+							<p>Începând cu data de 27 iunie 2022 la Coşniţa va demara tabăra de vară "Robocode" care pe parcursul a 10 zile deosebit de active va implica 30 de copii (de 11-14 ani) din comună în lumea cunoștințelor din domeniul IT.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project5.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/sf.jpg">
+						</div>
+						<div class="article">
+							<h4>Renovarea Sălii Festive</h4>
+							<p>Încă un Proiect Finalizat cu succes!Au finalizat lucrările de Renovare a Sălii de festivități din Liceul Teoretic "Ion Creangă", proiect implementat cu suportul financiar al Biroului Politici de Reintegrare a Țării prin Programul activităților de reintegrare.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project6.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/engl.jpg">
+						</div>
+						<div class="article">
+							<h4>Peace Corps Moldova<br>English Club</h4>
+							<p>English Virtual Club!!! Un proiect nou lansat de către #Corpul Păcii în Moldova!!!În perioada octombrie-aprilie, elevi din Liceul Teoretic Ion Creangă și Gimnaziul nr 2, Drochia vor beneficia de un -Virtual English Conversational Club.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project10.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+					<div class="crd">
+						<div class="program-image">
+							<img src="images/partner5.jpg">
+						</div>
+						<div class="article">
+							<h4>YMCA</h4>
+							<p>Liceul Teoretic ,,Ion Creangă” a beneficiat de o donație de 20 laptopuri din partea @YMCA Moldova pentru a deschide un Centru Digital Educațional în cadrul Instituției.</p>
+						</div>
+						<div class="progra-view">
+							<a href="project7.html" class="but-more">Află mai mult</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<hr></hr>
+
+<div class="wrap3">
+	<h2></h2>
+	<p><p>
+</div>
+
+<!---PARTNERS--->
+<section class="partners">
+	<div class="container2">
+		<h2 class="mb-sm">Parteneri</h2>
+		<strong>
+			<div class="row3">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner1.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner2.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner3.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner4.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner5.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner6.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner7.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner8.png" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner9.jpg" />
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="square-holder">
+						<img alt="" src="images/partner10.jpg" />
+					</div>
+				</div>
+			</div>
+		</strong>
+	</div>
+</section>
+
+
+
+<!----Footer---->
+	<section class="ab">
+		
+		<div class="row2">
+			<div class="col">
+				<img src="images/logo.png" class="logo">
+				<h5>L.T. "Ion Creangă"<br> s.Coșnița r.Dubăsari</h5>
+			</div>
+			<div class="col">
+				<h3>Contacte <div class="underline"><span></span></div></h3>
+				<p class="email-id">liccosnita@gmail.com</p>
+				<p>s.Coșnița r.Dubăsari<br>str. Păcii 45</p>
+				<p>+373 248 44 212</p>
+				<p>Luni - Vineri<br>7:00 - 17:00</p>
+			</div>
+			<div class="col">
+				<h3>Link-uri utile <div class="underline"><span></span></div></h3>
+				<ul>
+					<li><a href="index.html">ACASĂ</a></li>
+					<li></i><a href="about.html">DESPRE NOI</a></li>
+					<li></i><a href="course.html">CURSURI</a></li>
+					<li></i><a href="blog.html">BLOG</a></li>
+					<li></i><a href="contact.html">CONTACTE</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>Rețele de socializare <div class="underline"><span></span></div></h3>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/ioncreanga09"><i class="fa-brands fa-facebook"></i><a/>
+					<a href="#"><i class="fa-brands fa-youtube"></i><a/>
+					<a href="#"><i class="fa-brands fa-instagram"></i><a/>
+					<a href="#"><i class="fa-brands fa-linkedin"></i><a/>
+					<a href="#"><i class="fa-brands fa-twitter"></i><a/>
+				</div>
+			</div>	
+		</div>
+		<hr></hr>
+		<p>2023 Liceul Teoretic "Ion Creangă"</p>
+		<p>În caz că ați observat că vi sa încălcat dreptul de autor, rugăm respectuos să ne anunțați. Materialele vor fi șterse imediat. Vă mulțumim !</p>
+	</section>
+	
+<!----JavaScript for Toggle Menu---->	
+<script>
+	var navLinks = document.getElementById("navLinks");	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+<!----JavaScript for Pop-Up Images---->	
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+// need to add as many variables as images, so that means each img is a var
+// max 5 in a row... but they don't fit well... better keep 4 per row 
+
+//1st
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+//2nd
+//var img = document.getElementById("myImg2");
+//var modalImg = document.getElementById("img02");
+//var captionText = document.getElementById("caption");
+//img.onclick = function(){
+//  modal.style.display = "block";
+//  modalImg.src = this.src;
+//  captionText.innerHTML = this.alt;
+//}
+//3rd
+//var img = document.getElementById("myImg3");
+//var modalImg = document.getElementById("img01");
+//var captionText = document.getElementById("caption");
+//img.onclick = function(){
+//  modal.style.display = "block";
+//  modalImg.src = this.src;
+//    captionText.innerHTML = this.alt;
+//}
+//4th
+//var img = document.getElementById("myImg4");
+//var modalImg = document.getElementById("img01");
+//var captionText = document.getElementById("caption");
+//img.onclick = function(){
+//  modal.style.display = "block";
+//  modalImg.src = this.src;
+//    captionText.innerHTML = this.alt;
+//}
+//5th
+//var img = document.getElementById("myImg5");
+//var modalImg = document.getElementById("img01");
+//var captionText = document.getElementById("caption");
+//img.onclick = function(){
+//  modal.style.display = "block";
+//  modalImg.src = this.src;
+//    captionText.innerHTML = this.alt;
+//}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
